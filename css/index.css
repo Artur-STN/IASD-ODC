@@ -1,0 +1,81 @@
+@font-face{
+
+    src: url('../fonts/Oswald-Regular.ttf');
+    font-family: 'IASD';
+
+}
+
+.container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: white;
+    color: rgb(0, 51, 102);
+    
+    font-family: 'IASD';
+    font-size: 2rem;
+    
+    text-align: center;
+
+}
+
+.container div {
+
+    margin-bottom: 2rem;
+
+}
+
+.container div p{
+    
+    border: solid 1px rgb(0, 51, 102);
+    
+    width: 500px;
+    
+    margin: auto;
+    margin-top: 0.8rem;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+
+}
+
+.container div p:hover{
+
+    background: rgb(0, 51, 102);
+    color: white;
+
+}
+
+.container div a{
+
+    text-decoration: none;
+    color: rgb(0, 51, 102);
+
+}
+
+@media(max-width: 1100px) {
+
+    .container{
+
+        font-size: 1rem;
+    
+    }
+    
+    .container div{
+
+        margin: auto;
+
+    }
+
+    .container div p{
+        
+        width: 300px;
+
+        margin-top: 0.8rem;
+    
+    }
+
+}
